@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding и border уходят внутрь элементов */
+}
+
+
+.title{
+    color: #202020;
+font-family: Ubuntu;
+font-size: 24px;
+
+font-weight: 700;
+display: inline;
+
+}
+.logo{
+    width: 58px;
+height: 58px;
+flex-shrink: 0;}
+ul{
+    list-style: none;
+    color: #202020;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background: #5528FF;
+    color: #FFF;
+font-family: Ubuntu;
+font-size: 14px;
+
+font-weight: 700;
+
+width: 100px;
+height: 24px;
+flex-shrink: 0;
+/* margin: 2.5 13 4.5 14; */
+padding: 2.5 13 4.5 14;
+}
+li{
+    margin:0 0 15px 30px;
+}
+h1{
+    border: 0;
+}
+.main-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 53px 369px 0 370px;
+    max-width: 1920px;
+    /* max-width - максимальная ширина */
+    margin: 0 auto;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+
+
+
+.main-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 371px 20px 386px;
+    max-width: 1920px;
+    /* max-width - максимальная ширина */
+    margin: 2234px auto auto auto;
+    background-color: #F7F7F7;
+}
+.logo-container-footer{
+    display: flex;
+    align-items: center;
+}
+.logo-footer{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;}
+
+.social-container-footer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.social-1{
+    width: 24px;
+    height: 28px;
+}
+.social-2{
+    width: 27px;
+    height: 24px;
+}
+.social-3{
+    width: 21px;
+    height: 24px;
+}
+.social-4{
+    width: 24px;
+    height: 24px;
+}
