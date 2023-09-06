@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* padding и border уходят внутрь элементов */
+    
 }
 
 
@@ -28,7 +29,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-button{
+.batton_1{
     border: none;
     border-radius: 5px;
     background: #5528FF;
@@ -44,17 +45,25 @@ flex-shrink: 0;
 /* margin: 2.5 13 4.5 14; */
 padding: 2.5 13 4.5 14;
 }
-li{
-    margin:0 0 15px 30px;
-}
+/* li{ */
+    /* margin:0 0 15px 30px; */
+    /* margin:26px  0 0 37px;
+
+    text-align: center;
+    align-items: center;
+
+
+} */
 h1{
     border: 0;
+    text-align: center;
 }
 .main-header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 53px 369px 0 370px;
+    /* padding: 53px 0 0 0; */
+    /* padding: 53px 369px 0 370px; */
     max-width: 1920px;
     /* max-width - максимальная ширина */
     margin: 0 auto;
@@ -71,18 +80,31 @@ h1{
     gap: 37px;
 }
 
+.nav-container > li{
+    /* gap: 37px; */
+    text-align: center;
+    align-items: center;
+    /* text-align: center; */
 
+}
 
-
+footer{
+    /* display: flex; */
+    /* justify-content:space-between; */
+    background-color: #F7F7F7;
+    /* margin: 2234px 0 0 0 */
+}
 .main-footer{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 20px 371px 20px 386px;
+    /* padding: 20px 371px 20px 386px; */
+    /* padding: 20px 0 20px 0; */
+    /* padding: 20px 369px 20px 370px; */
     max-width: 1920px;
     /* max-width - максимальная ширина */
-    margin: 2234px auto auto auto;
-    background-color: #F7F7F7;
+    margin: 100px auto;
+    /* background-color: #F7F7F7; */
 }
 .logo-container-footer{
     display: flex;
@@ -113,4 +135,143 @@ h1{
 .social-4{
     width: 24px;
     height: 24px;
+}
+
+.we{
+    border: 0;
+    /* text-align: center; */
+    /* padding: 117px 0 35px 0; */
+    /* padding: 117px 0 35px 0; */
+    /* padding: 53px 369px 0 370px; */
+
+    max-width: 1920px;
+    /* color: #202020;
+text-align: center;
+font-family: Ubuntu;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
+margin: 0 auto;
+
+}
+
+.we > h2{
+    padding: 117px 0 35px 0;
+    color: #202020;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-we{
+    /* display: flex;
+    justify-content:space-between; */
+
+    align-items: center;
+    text-align: left;
+    /* padding: 0 0 0 370px; */
+    /* max-width: 1920px; */
+    width: 741px;
+height: 196px;
+color: #4F4F4F;
+font-family: Ubuntu;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 160.86%;
+text-align: left;
+
+}
+
+.batton_2{
+    border: none;
+    border-radius: 10px;
+    background: #5528FF;
+    color: #FFF;
+font-family: Ubuntu;
+font-size: 24px;
+
+font-weight: 400;
+
+width: 235px;
+height: 60px;
+flex-shrink: 0;
+/* margin: 2.5 13 4.5 14; */
+padding: 16 58 11 58;
+margin: 70px 0 100px 0;
+
+
+}
+.line{
+     display: flex;
+    justify-content:space-between;
+
+    align-items: center;
+    max-width: 1920px;
+   margin: 0 auto;
+   padding: 0 0 100px 0;
+}
+.line-1{
+    background-color: #C2C2C2;
+    width: 350px;
+height: 0.5px;
+}
+.line-2{
+    background-color: #C2C2C2;
+    width: 1420px;
+height: 0.5px;
+}
+.text-line{
+    margin: 0 15px 1px 15px;
+    color: #C2C2C2;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.services{
+    display: flex;
+    justify-content:space-between;
+
+    align-items: center;
+    max-width: 1920px;
+   margin: 0 auto;
+   flex-wrap: wrap;
+}
+.services > div {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+margin: 0 0 100px 0;
+
+}
+.services img{
+    margin: 0 60px 0 60px;
+    align-items: center;
+
+}
+.services h3{
+    color: #000;
+font-family: Ubuntu;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 0 17px 0;
+}
+
+.services p {
+    color: #B2B2B2;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 300px;
+
 }
